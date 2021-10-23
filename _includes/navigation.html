@@ -1,8 +1,8 @@
-<nav>
+<nav class='nav nav-pills'>
 	{% for item in site.data.navigation %}
-		<a href="{{ item.link }}"
+		<a href="{{ item.link }}" class="nav-link"
 		   {% if page.url == item.link %}
-			   class="current"
+			   class="active"
 		   {% endif %}>
 	   {{ item.name }}
 	</a>
