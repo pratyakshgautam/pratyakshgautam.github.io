@@ -1,2 +1,0 @@
-gem "webrick"
-gem "jekyll"
